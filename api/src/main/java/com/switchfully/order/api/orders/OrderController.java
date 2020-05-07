@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://eurder-front.herokuapp.com")
 @RestController
 @RequestMapping(path = "/" + OrderController.RESOURCE_NAME)
 public class OrderController {
